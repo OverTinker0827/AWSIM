@@ -1,0 +1,1356 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8538638368167434699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5292039347127367299}
+  m_Layer: 0
+  m_Name: SpeedLimits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5292039347127367299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8538638368167434699}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7996653, z: -0, w: -0.60044605}
+  m_LocalPosition: {x: -44.887585, y: -6.9036083, z: -67.41984}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3923374193351843790}
+  - {fileID: 509780065531874960}
+  - {fileID: 5723817790318544331}
+  - {fileID: 8216174338246638250}
+  - {fileID: 1661089381043544761}
+  - {fileID: 3855302781717388663}
+  - {fileID: 8357728640858806645}
+  - {fileID: 8584749200785462127}
+  - {fileID: 4216157539903204758}
+  - {fileID: 456375418675314363}
+  - {fileID: 9057250296641785830}
+  - {fileID: 5370407617322623096}
+  - {fileID: 7025140010183217755}
+  - {fileID: 694963153454698833}
+  - {fileID: 7895487072347671545}
+  - {fileID: 671833303714759301}
+  - {fileID: 6721431577450356361}
+  - {fileID: 4632745807325734609}
+  - {fileID: 8701982853296745656}
+  - {fileID: 8159398175588687874}
+  - {fileID: 4780534141651498516}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &43245139751545211
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 47.478466
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.6241739
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 386.7318
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.60044605
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7996653
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &509780065531874960 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 43245139751545211}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &135079929881680208
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 211.4693
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.92918
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -165.57388
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.013357013
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.99991083
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 72.273
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &456375418675314363 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 135079929881680208}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1022238170342389434
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -229.6157
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.036881
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -200.85658
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.15753365
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.98751366
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 55.676
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &694963153454698833 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 1022238170342389434}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1069725488253986158
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -220.92644
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.151573
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.126602
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.03520909
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.99938
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 77.839
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &671833303714759301 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 1069725488253986158}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1191174067113903442
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.7313614
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.1712546
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 382.80652
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.09752244
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9952334
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 62.611
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &1661089381043544761 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 1191174067113903442}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3600655904281114661
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 253.804
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &3923374193351843790 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 3600655904281114661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3605817637154224796
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 169.84245
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.8716865
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 373.6588
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.60044605
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7996653
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &3855302781717388663 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 3605817637154224796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4397894283466541693
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 293.177
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.8115425
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 359.81396
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7185741
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6954505
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -18.07
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &4216157539903204758 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 4397894283466541693}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5034293226614215167
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 234.37335
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.540671
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 62.924072
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.23197243
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9727224
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 100.63
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (20)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &4780534141651498516 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 5034293226614215167}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5170247517256401210
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -196.68277
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.7550964
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 64.325134
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9925753
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.12163173
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -92.224
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &4632745807325734609 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 5170247517256401210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5252794245751956000
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 41.6705
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.172141
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 418.3685
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99990594
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.013718516
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 252.232
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &5723817790318544331 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 5252794245751956000}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5552160140912510867
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -218.83665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.1707964
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -192.45459
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.78462404
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6199719
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -29.568
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &5370407617322623096 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 5552160140912510867}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6543144309245933922
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -177.3492
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.7553072
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 26.514755
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.60044605
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7996653
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &6721431577450356361 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 6543144309245933922}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7418825941723887024
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -256.83124
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.1276293
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -186.31229
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.42511222
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.90514064
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 124.119
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &7025140010183217755 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 7418825941723887024}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7645105371677568018
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -223.00507
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.8384376
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -159.6911
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9976723
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.06819147
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -114.017
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &7895487072347671545 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 7645105371677568018}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8118194176704623748
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 263.94925
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.8115425
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 347.7718
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.04415354
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9990248
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 78.865
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &8584749200785462127 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 8118194176704623748}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8391935189055585950
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 140.28941
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9854193
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 371.36267
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.033456236
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9994402
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 69.969
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &8357728640858806645 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 8391935189055585950}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8471005345372937537
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.067856
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3380094
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 414.1803
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.60044605
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7996653
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &8216174338246638250 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 8471005345372937537}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8554226940193687529
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.537113
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.14907932
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 54.753593
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.99999595
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0028430521
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -105.871
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &8159398175588687874 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 8554226940193687529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8807748211400763405
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 207.17662
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.649937
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -195.4558
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.60044605
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7996653
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &9057250296641785830 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 8807748211400763405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9171895314921524051
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5292039347127367299}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.4119053
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.060292244
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 53.10609
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9940298
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.10910911
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -93.668
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+      propertyPath: m_Name
+      value: 35 mph speed limit sign final (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+--- !u!4 &8701982853296745656 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60ab4156863a9fcf6b2df14d0c05086c, type: 3}
+  m_PrefabInstance: {fileID: 9171895314921524051}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,30 @@
+using UnityEngine;
+
+public class scriptAddTree : MonoBehaviour
+{
+    void Start()
+    {
+        AddTreeScriptToLeafNodes(transform);
+    }
+
+    void AddTreeScriptToLeafNodes(Transform parent)
+    {
+        if (parent.childCount == 0)
+        {
+            // Check if "tree" script is already added
+            if (parent.GetComponent<tree>() == null)
+            {
+                parent.gameObject.AddComponent<tree>();
+                Debug.Log("tree script added to: " + parent.name);
+            }
+        }
+        else
+        {
+            foreach (Transform child in parent)
+            {
+                AddTreeScriptToLeafNodes(child);
+            }
+        }
+    }
+}
+
