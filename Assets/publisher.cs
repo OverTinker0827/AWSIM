@@ -13,8 +13,8 @@ public class publisher : MonoBehaviour
     {   
     	ros2Unity= new ROS2UnityCore();
         if (ros2Unity.Ok()) {
-    ros2Node = ros2Unity.CreateNode("ROS2UnityListenerNode");
-pub = ros2Node.CreatePublisher<Float32MultiArray>("/test_topic/array");
+    ros2Node = ros2Unity.CreateNode("reward");
+pub = ros2Node.CreatePublisher<Float32MultiArray>("/penalties");
     }
 }
     // Update is called once per frame

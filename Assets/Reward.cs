@@ -33,6 +33,9 @@ private publisher pub;
         
         StopLine.reward=0f;
         StopLine.penalty=-10f;
+        
+           npcv.reward=0f;
+        npcv.penalty=-10f;
     }
 
     // Update is called once per frame
@@ -41,13 +44,12 @@ private publisher pub;
         results[0] =carDetector.jresult;   
         results[1] = (LeftLane.result ==  LeftLane.penalty || RightLane.result ==  LeftLane.penalty) ? LeftLane.penalty : LeftLane.reward;; 
         results[2] = npc.result;     
-        results[3] = bush.result;    
-        results[4] = tree.result;     
+        results[3] = npcv.result;
+        results[4] =     (tree.result==  tree.penalty|| bush.result ==  tree.penalty) ? tree.penalty : tree.reward;; 
       	results[5]=carDetector.sresult;
       	results[6]=StopLine.result;
 
-     string resultsString = string.Join(", ", results);
-        Debug.Log("Results: " + resultsString); 
+
         pub.publishMSG(results);
     }
 }}

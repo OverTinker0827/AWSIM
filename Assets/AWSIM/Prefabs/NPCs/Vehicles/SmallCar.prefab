@@ -75,7 +75,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5672771792134523178}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7932237578148434502
 MeshFilter:
@@ -153,11 +153,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2040695038511601013}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.765, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 5672771792134523178}
-  m_RootOrder: 2
+  m_Father: {fileID: 7070971486802908729}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3699001311705816290
 MeshFilter:
@@ -239,7 +239,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5672771792134523178}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4917718099196816787
 MeshFilter:
@@ -603,6 +603,8 @@ GameObject:
   - component: {fileID: 2334587463588399536}
   - component: {fileID: 1157233971956959774}
   - component: {fileID: 7948141583298997655}
+  - component: {fileID: 7089639912223155863}
+  - component: {fileID: 2042003830339203345}
   m_Layer: 6
   m_Name: SmallCar
   m_TagString: Vehicle
@@ -658,6 +660,7 @@ MonoBehaviour:
   visualObjectRoot: {fileID: 6590729250316912265}
   centerOfMass: {fileID: 192647850127816499}
   rigidbody: {fileID: 2334587463588399536}
+  trailer: {fileID: 0}
   axleSettings:
     frontAxle:
       leftWheel:
@@ -727,6 +730,32 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers: []
   m_Enabled: 1
+--- !u!114 &7089639912223155863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3333523281254186578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 880b987ce2d5e7b698149ff3eff86b8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!64 &2042003830339203345
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3333523281254186578}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2959467708922500008, guid: 9ee7cfc13b89ad340bae864a71885123, type: 3}
 --- !u!1 &3500331759736183653
 GameObject:
   m_ObjectHideFlags: 0
@@ -757,7 +786,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5672771792134523178}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &234151349966895690
 MeshFilter:
@@ -904,7 +933,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5672771792134523178}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8206521668715038657
 MeshFilter:
@@ -986,7 +1015,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5672771792134523178}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3489376218607966867
 MeshFilter:
@@ -1071,7 +1100,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.765, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1125095767144714820}
   m_Father: {fileID: 5672771792134523178}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1155,7 +1185,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5672771792134523178}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7354712011167814473
 MeshFilter:
@@ -1236,7 +1266,6 @@ Transform:
   m_Children:
   - {fileID: 2512199355435426605}
   - {fileID: 7070971486802908729}
-  - {fileID: 1125095767144714820}
   - {fileID: 1348873387542740073}
   - {fileID: 5319105998465991411}
   - {fileID: 6811910694981865465}

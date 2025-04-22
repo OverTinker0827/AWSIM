@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 672599926743682132}
   - component: {fileID: 4124385585312092154}
   - component: {fileID: 3707945760163496769}
+  - component: {fileID: 300090096161525173}
+  - component: {fileID: 2805391140790566059}
   m_Layer: 6
   m_Name: Van
   m_TagString: Vehicle
@@ -67,6 +69,7 @@ MonoBehaviour:
   visualObjectRoot: {fileID: 8234103670202696557}
   centerOfMass: {fileID: 3143509030855176919}
   rigidbody: {fileID: 672599926743682132}
+  trailer: {fileID: 0}
   axleSettings:
     frontAxle:
       leftWheel:
@@ -136,6 +139,32 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers: []
   m_Enabled: 1
+--- !u!64 &300090096161525173
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536101250511469494}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2959467708922500008, guid: 10fd7e38c27132a49826fbcd7ab69458, type: 3}
+--- !u!114 &2805391140790566059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536101250511469494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 880b987ce2d5e7b698149ff3eff86b8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &617643284681785258
 GameObject:
   m_ObjectHideFlags: 0

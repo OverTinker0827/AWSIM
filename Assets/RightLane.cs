@@ -35,7 +35,7 @@ public static float penalty;
             bool isFacingSameDir = angle < 90f;
 
             string orientation = isFacingSameDir ? "Car is facing same dir as detector X" : "Car is facing opposite dir of detector X";
-            Debug.Log($"[LaneDetector] {orientation}");
+           
 
             // Interpret LEFT/RIGHT in detector's local space
             float zOffset = toDetector.z;
